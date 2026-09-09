@@ -1,0 +1,129 @@
+generated: '2026-09-09'
+method: probed
+source: live probes of the closed /.well-known/ path list on every host this record knows
+note: >-
+  Every named discovery path 404s on both hosts Advanced Solar Power (Hangzhou) Inc. operates.
+  The company runs one PHP brochure site (www.advsolarpower.com) for a CdTe thin-film module
+  manufacturing business; there is no API host, no docs/console host and no OpenAPI servers[]
+  block, so the host set is the registrable domain and its www. alias. NO WellKnown or SecurityTxt
+  pointer is emitted from this file — it records an absence, not a served surface.
+hit_count: 0
+path_echo_control: passed
+hosts:
+- host: https://www.advsolarpower.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/advancedsolarpower-negative-control-7f3ab91c.json
+    status: 404
+    file: null
+    control: negative
+- host: https://advsolarpower.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/advancedsolarpower-negative-control-7f3ab91c.json
+    status: 404
+    file: null
+    control: negative
+contract_discovery:
+  note: >-
+    STEP 0b contract discovery run 2026-09-09 against every host the record knows. No REST OpenAPI,
+    no GraphQL surface, no MCP endpoint, no OGC surface (nothing in the site prose names WMS/WFS/
+    WCS/WMTS/CSW or an OGC API, so no blind probing was done) and no A2A agent card.
+  probes:
+  - {url: 'https://www.advsolarpower.com/openapi.json', status: 404}
+  - {url: 'https://www.advsolarpower.com/openapi.yaml', status: 404}
+  - {url: 'https://www.advsolarpower.com/swagger.json', status: 404}
+  - {url: 'https://www.advsolarpower.com/v1/openapi.json', status: 404}
+  - {url: 'https://www.advsolarpower.com/api-docs', status: 404}
+  - {url: 'https://www.advsolarpower.com/docs', status: 404}
+  - {url: 'https://www.advsolarpower.com/redoc', status: 404}
+  - {url: 'https://www.advsolarpower.com/graphql', status: 404}
+  - {url: 'https://advsolarpower.com/openapi.json', status: 404}
+  - {url: 'https://advsolarpower.com/swagger.json', status: 404}
+  - {url: 'https://advsolarpower.com/api-docs', status: 404}
+  - {url: 'https://advsolarpower.com/graphql', status: 404}
+  - {url: 'https://api.github.com/search/users?q=advsolarpower+OR+advancedsolarpower', status: 200, result: 'total_count 0 — no GitHub organization'}
+  - {url: 'https://registry.npmjs.org/-/v1/search?text=advsolarpower', status: 200, result: '0 packages'}
+  - {url: 'https://pypi.org/pypi/advsolarpower/json', status: 404}

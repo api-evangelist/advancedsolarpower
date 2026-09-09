@@ -1,0 +1,44 @@
+# Advanced Solar Power (Hangzhou) Inc.
+
+> Chinese photovoltaic manufacturer founded in 2008, producing cadmium telluride (CdTe) thin-film
+> solar modules, PV system engineering, and building-integrated photovoltaic (BIPV) products.
+> The first CdTe thin-film module manufacturer in China. Sells physical hardware and system
+> integration only — there is no public API, developer portal, SDK, or machine-readable interface.
+
+## Company
+
+- [Home](https://www.advsolarpower.com/en/): English corporate site for Advanced Solar Power (Hangzhou) Inc.
+- [ASP Story](https://www.advsolarpower.com/en/index.php/about): Company background and CdTe thin-film technology history.
+- [Milestones](https://www.advsolarpower.com/en/index.php/about/history): Dated company timeline.
+- [Achievements and Awards](https://www.advsolarpower.com/en/index.php/about/honor): Recognitions and honors.
+- [Contact Us](https://www.advsolarpower.com/en/index.php/contact): Hangzhou address, phone, and sales@advsolarpower.com.
+
+## Products
+
+- [PV Product](https://www.advsolarpower.com/en/index.php/product): Standard thin-film modules (S1, S2, S4), BIPV modules, and other thin-film modules.
+- [Product Advantage](https://www.advsolarpower.com/en/index.php/product/trait): CdTe thin-film performance characteristics.
+- [Product Certificate](https://www.advsolarpower.com/en/index.php/product/approve): ISO, TUV, CE, UL, CQC, Australia CEC, California CEC certifications.
+- [Product Safety](https://www.advsolarpower.com/en/index.php/product/protection): Product safety information.
+- [Downloads](https://www.advsolarpower.com/en/index.php/product/download): Datasheets and product documentation (PDF).
+
+## Solutions
+
+- [Roof-Top PV Projects](https://www.advsolarpower.com/en/index.php/case/7): Rooftop photovoltaic installations.
+- [BIPV Solutions](https://www.advsolarpower.com/en/index.php/case/8): Building-integrated photovoltaic facade and floor-tile deployments, including the 2019 Beijing Horticultural Expo China Pavilion.
+
+## News
+
+- [News and Updates](https://www.advsolarpower.com/en/index.php/news): Company and industry news.
+
+## APIs
+
+None. As of 2026-09-09 no OpenAPI, AsyncAPI, GraphQL, MCP, A2A agent card, or `/.well-known/`
+discovery document is served on any host this company operates; see
+`well-known/advancedsolarpower-well-known.yml` for the full probe record.
+
+## Notes for agents
+
+- This is a manufacturing company. There is nothing here to call programmatically.
+- robots.txt allows only Googlebot, Baiduspider and 360Spider; all other user agents are disallowed.
+- Independent third-party profile maintained by API Evangelist (https://apievangelist.com).
+  This is not the company's own file and is not endorsed by the company.
