@@ -1,0 +1,11 @@
+{
+  "repo": "advancedsolarpower",
+  "feeds": [
+    {
+      "source": "https://www.advsolarpower.com/en/",
+      "error": "URLError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
