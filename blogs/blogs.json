@@ -3,16 +3,9 @@
   "feeds": [
     {
       "source": "https://www.advsolarpower.com/en/index.php/news",
-      "feed_url": "https://www.advsolarpower.com/en/index.php/news",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://www.advsolarpower.com/en/",
       "error": "URLError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
